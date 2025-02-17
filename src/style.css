@@ -1,0 +1,104 @@
+body {
+    background-image: url(../imagens/pexels-tima-miroshnichenko-6755078.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", serif;
+    min-height: 100vh;
+    padding: 30px;
+
+}
+
+header h1 {
+    color: aliceblue;
+    text-shadow: 3px 5px 2px black;
+    font-size: 3em;
+    margin-top: 50px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 200, 25);
+    padding: 80px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3em black;
+    gap: 30px;
+}
+
+.caixa-de-perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-de-perguntas p {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.caixa-de-perguntas input {
+    font-size: 1.2rem;
+    border-radius: 4px;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.caixa-de-perguntas .botao {
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.caixa-de-perguntas .botao:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    max-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#resultado p {
+    font-size: 1.3rem;
+}
+
+.texto {
+    font-size: 1.3rem;
+}
+
+.rodape {
+    color: aliceblue;
+}
+
+footer {
+    margin-top: auto;
+}

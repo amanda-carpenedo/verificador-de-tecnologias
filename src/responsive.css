@@ -1,0 +1,175 @@
+@media screen and (max-width: 1060px) {
+
+    header h1 {
+        font-size: 2.5em;
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 630px) {
+
+    header h1 {
+        font-size: 2.5em;
+        line-height: 2.8rem;
+    }
+
+    section {
+        padding: 50px;
+    }
+
+    .caixa-de-perguntas p {
+        font-size: 1.2rem;
+    }
+
+    #resultado p {
+        font-size: 1.1rem;
+    }
+
+    .texto {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    header h1 {
+        font-size: 2em;
+        line-height: 2.8rem;
+    }
+
+    section {
+        padding: 60px;
+    }
+
+    .caixa-de-perguntas p {
+        font-size: 1.2rem;
+    }
+
+
+    .caixa-de-perguntas input {
+        font-size: 1.2rem;
+        border-radius: 4px;
+        width: 150px;
+
+    }
+
+    #resultado p {
+        font-size: 1.1rem;
+    }
+
+    .texto {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        text-align: center;
+        width: 300px;
+        max-height: 100vh;
+        margin: 0 auto;
+        padding: 20px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 435px) {
+
+    body {
+        padding: 10px;
+
+    }
+
+    header h1 {
+        font-size: 1.8em;
+        line-height: 2.5rem;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 391px) {
+
+    body {
+        padding: 5px;
+
+    }
+
+    header h1 {
+        font-size: 1.9em;
+        line-height: 2.5rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 376px) {
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+}
+
+@media screen and (max-width: 361px) {
+
+    header h1 {
+        font-size: 1.7em;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+
+    body {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .caixa-de-perguntas p {
+        font-size: 1rem;
+    }
+
+
+    .caixa-de-perguntas input {
+        font-size: 1rem;
+        border-radius: 4px;
+        width: 120px;
+
+    }
+
+    #resultado p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        overflow: auto;
+
+
+    }
+
+
+}

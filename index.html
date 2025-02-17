@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links css -->
+     <link rel="stylesheet" href="./src/reset.css">
+     <link rel="stylesheet" href="./src/style.css">
+     <link rel="stylesheet" href="./src/responsive.css">
+
+     <!-- fonte -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+     
+
+
+    <title>Verificador de tecnologias</title>
+</head>
+
+<body>
+    <header>
+        <h1>Qual era a tecnologia no ano em que você nasceu?</h1>
+    </header>
+
+    <section>
+        <div class="caixa-de-perguntas">
+            <p>Ano de nascimento:
+                <input type="number" id="txtano" name="txtano" min="0">
+            </p>
+            <input type="button" value="descobrir" onclick="verificar()" class="botao">
+        </div>
+        <div id="resultado">
+            <p>Preencha acima para descobrir a tecnologia!</p>
+        </div>
+    </section>
+<footer>
+    <p class="rodape">Desenvolvido por: &copyamandacarpenedo</p>
+</footer>
+
+ 
+ 
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
