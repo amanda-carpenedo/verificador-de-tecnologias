@@ -1,4 +1,4 @@
-+function verificar() {
+function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
     var formularioAno = document.getElementById('txtano')
@@ -69,7 +69,7 @@
     var container = document.createElement('div');
     container.classList.add('container');
     document.body.appendChild(container);
-    
+
 
     container.appendChild(img);
 
